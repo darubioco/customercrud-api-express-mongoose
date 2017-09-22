@@ -1,0 +1,27 @@
+{
+  "name": "customercrud-api-express-mongoose",
+  "version": "1.0.0",
+  "description": "RESTful web services to create-read-update-delete customers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Rubio",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongoose": "4.10.8",
+    "morgan": "^1.8.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
